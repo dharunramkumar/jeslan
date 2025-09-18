@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #004080;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.college-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.college-header img {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+}
+
+main {
+  max-width: 700px;
+  margin: 30px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.photo-upload {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.photo-upload img {
+  width: 120px;
+  height: 120px;
+  border: 2px dashed #aaa;
+  border-radius: 8px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+}
+
+button {
+  background: #004080;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #00264d;
+}
